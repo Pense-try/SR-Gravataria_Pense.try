@@ -1,0 +1,1019 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vanguard Accesories - Elegância Masculina</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins:wght@400;600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css">
+
+    <link rel="stylesheet" href="./src/CSS/style.css">
+</head>
+
+<body class="bg-[var(--primary-light)]">
+    <!-- Navbar -->
+    <nav class="fixed w-full z-50 backdrop-blur-md bg-white/90 shadow-sm">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-20">
+                <!-- Logo -->
+                <a href="#" class="text-xl md:text-2xl font-bold"
+                    style="font-family: var(--font-heading); color: var(--primary-dark);">
+                    SR Gravataria
+                </a>
+
+                <!-- Desktop Menu -->
+                <div class="hidden lg:flex items-center space-x-8">
+                    <a href="#home" class="nav-link">Home</a>
+                    <a href="#" class="nav-link">Sobre</a>
+                    <a href="#" class="nav-link">Qualidade</a>
+                    <a href="#contato" class="nav-link">Contato</a>
+                    <a href="#"
+                        class="bg-gradient-to-r from-[var(--accent-1)] to-[var(--accent-2)] text-white px-6 py-2 rounded-full hover:shadow-lg transition-all">
+                        Produtos
+                    </a>
+                </div>
+
+                <!-- Mobile Button -->
+                <button id="mobile-menu-button" class="lg:hidden text-[var(--primary-dark)]">
+                    <svg class="w-8 h-8 transition-transform duration-300" fill="none" stroke="currentColor"
+                        viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M4 6h16M4 12h16M4 18h16" />
+                    </svg>
+                </button>
+            </div>
+        </div>
+
+        <!-- Mobile Dropdown -->
+        <div id="mobile-menu"
+            class="lg:hidden absolute w-full bg-white shadow-lg origin-top transition-all duration-300 scale-y-0 max-h-0 overflow-hidden">
+            <div class="px-4 py-6 space-y-6">
+                <a href="#home" class="block nav-link-mobile">Home</a>
+                <a href="#" class="block nav-link-mobile">Sobre</a>
+                <a href="#" class="block nav-link-mobile">Qualidade</a>
+                <a href="#contato" class="block nav-link-mobile">Contato</a>
+                <a href="#"
+                    class="block w-full bg-gradient-to-r from-[var(--accent-1)] to-[var(--accent-2)] text-white px-6 py-3 rounded-full text-center">
+                    Produtos
+                </a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="relative min-h-screen flex items-center pt-20" id="home">
+        <div class="absolute inset-0 hero-glow -z-10"></div>
+
+        <div
+            class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col-reverse lg:flex-row items-center gap-8 md:gap-16 pb-16">
+            <div class="lg:w-1/2 text-center lg:text-left">
+                <h1 class="text-5xl md:text-6xl xl:text-7xl font-bold mb-8"
+                    style="font-family: var(--font-heading); color: var(--primary-dark);">
+                    A Arte da <span
+                        class="bg-clip-text text-transparent bg-gradient-to-r from-[var(--accent-1)] to-[var(--accent-2)]">Elegancia</span>
+                </h1>
+                <p class="text-xl text-gray-600 mb-4 md:mb-12 max-w-xl mx-auto lg:mx-0">
+                    Peças meticulosamente elaboradas para homens que não se contentam com o ordinário
+                </p>
+                <button
+                    class="relative shine-effect bg-gradient-to-r from-[var(--accent-1)] to-[var(--accent-2)] text-white px-12 py-4 rounded-full text-lg font-semibold hover:scale-105 transition-transform shadow-xl">
+                    Conheça Nossa História
+                </button>
+            </div>
+
+            <div class="lg:w-1/2 mt-8 md:mt-0 lg:mt-0">
+                <div class="relative group">
+                    <div
+                        class="absolute inset-0 bg-gradient-to-r from-[var(--accent-1)] to-[var(--accent-2)] rounded-3xl transform rotate-3 blur-xl opacity-30 group-hover:opacity-50 transition-opacity">
+                    </div>
+                    <img src="./src/Img/IMG-gravata-6.jpg" alt="Produtos"
+                        class="rounded-3xl relative z-10 transform hover:-rotate-3 transition-transform duration-500">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção Elegância -->
+    <section class="relative min-h-screen flex items-center">
+        <!-- Imagem de fundo com overlay -->
+        <div class="absolute inset-0 bg-[url('./src/Img/IMG-camisaFundo-1.jpg')] bg-cover bg-center">
+            <div class="absolute inset-0 bg-gradient-to-t from-black/80 to-black/50"></div>
+        </div>
+
+        <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center md:text-left">
+            <div class="grid md:grid-cols-2 gap-12 items-center">
+                <!-- Texto -->
+                <div class="text-white space-y-8">
+                    <h2 class="text-4xl md:text-6xl font-bold" style="font-family: var(--font-heading);">
+                        A Linguagem Silenciosa da <span class="text-[var(--accent-2)]">Elegância</span>
+                    </h2>
+
+                    <p class="text-xl md:text-2xl leading-relaxed">
+                        Suas escolhas vestem suas intenções antes mesmo de qualquer palavra. Na arte da aparência, cada
+                        detalhe é um capítulo da sua história.
+                    </p>
+
+                    <!-- Itens -->
+                    <div class="grid gap-6 mt-12">
+                        <div
+                            class="p-6 bg-white/10 backdrop-blur-sm rounded-xl border border-white/20 hover:bg-white/20 transition-all">
+                            <div class="flex items-center gap-4">
+                                <div class="bg-[var(--accent-1)]/20 p-4 rounded-lg">
+                                    <i class="fas fa-tie text-2xl text-[var(--accent-1)]"></i>
+                                </div>
+                                <div class="text-left">
+                                    <h3 class="text-xl font-bold mb-2">A Gravata Certa</h3>
+                                    <p class="opacity-90">Selo final de sofisticação que transforma o comum em
+                                        extraordinário</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div
+                            class="p-6 bg-white/10 backdrop-blur-sm rounded-xl border border-white/20 hover:bg-white/20 transition-all">
+                            <div class="flex items-center gap-4">
+                                <div class="bg-[var(--accent-1)]/20 p-4 rounded-lg">
+                                    <i class="fas fa-shirt text-2xl text-[var(--accent-1)]"></i>
+                                </div>
+                                <div class="text-left">
+                                    <h3 class="text-xl font-bold mb-2">Camisa Impecável</h3>
+                                    <p class="opacity-90">Fundação de todo visual bem sucedido, onde o conforto encontra
+                                        a classe</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <button
+                        class="mt-8 bg-[var(--accent-1)] text-white px-8 py-4 rounded-full text-lg font-semibold hover:bg-[var(--accent-2)] transition-colors">
+                        Eleve Seu Estilo
+                    </button>
+                </div>
+
+                <!-- Espaço para imagem decorativa (opcional) -->
+                <div class="hidden md:block"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Destaques -->
+    <section class="py-24 bg-gradient-to-b from-[var(--primary-light)] to-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid md:grid-cols-3 gap-12">
+                <div class="bg-white p-8 rounded-2xl shadow-xl hover:shadow-2xl transition-shadow">
+                    <div class="w-16 h-16 bg-[var(--accent-1)] rounded-xl mb-6 flex items-center justify-center">
+                        <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M13 10V3L4 14h7v7l9-11h-7z" />
+                        </svg>
+                    </div>
+                    <h3 class="text-2xl font-bold mb-4" style="color: var(--primary-dark);">Entrega Expressa</h3>
+                    <p class="text-gray-600">Receba em até 24h nas principais capitais</p>
+                </div>
+
+                <div class="bg-white p-8 rounded-2xl shadow-xl hover:shadow-2xl transition-shadow">
+                    <div class="w-16 h-16 bg-[var(--accent-2)] rounded-xl mb-6 flex items-center justify-center">
+                        <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z" />
+                        </svg>
+                    </div>
+                    <h3 class="text-2xl font-bold mb-4" style="color: var(--primary-dark);">Segurança</h3>
+                    <p class="text-gray-600">Pagamentos 100% protegidos</p>
+                </div>
+
+                <div class="bg-white p-8 rounded-2xl shadow-xl hover:shadow-2xl transition-shadow">
+                    <div class="w-16 h-16 bg-[var(--accent-1)] rounded-xl mb-6 flex items-center justify-center">
+                        <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+                        </svg>
+                    </div>
+                    <h3 class="text-2xl font-bold mb-4" style="color: var(--primary-dark);">Garantia</h3>
+                    <p class="text-gray-600">Devolução grátis em 30 dias</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sobre a Empresa -->
+    <section class="relative py-24 bg-[var(--primary-light)]">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid md:grid-cols-2 gap-16 items-center">
+                <!-- Foto do Dono com Efeito -->
+                <div class="relative group max-w-md mx-auto">
+                    <div
+                        class="absolute inset-0 bg-gradient-to-r from-[var(--accent-1)] to-[var(--accent-2)] rounded-3xl transform -rotate-3 shadow-xl opacity-30 group-hover:opacity-50 transition-opacity">
+                    </div>
+                    <div class="relative rounded-3xl overflow-hidden border-8 border-white shadow-2xl">
+                        <img src="./src/Img/IMG-proprietario.jpg" alt="Saulo Ribeiro - Fundador"
+                            class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105">
+                        <div class="absolute bottom-0 left-0 right-0 p-6 bg-gradient-to-t from-black/80 to-transparent">
+                            <p class="text-white text-lg font-semibold">"A elegância está nos detalhes que fazem a
+                                diferença"</p>
+                        </div>
+                    </div>
+                    <div
+                        class="absolute -bottom-6 left-1/2 transform -translate-x-1/2 bg-white px-6 py-2 rounded-full shadow-md">
+                        <span class="text-sm font-bold text-[var(--accent-1)]">Saulo Ribeiro</span>
+                        <p class="text-xs text-gray-600 font-bold">Fundador</p>
+                    </div>
+                </div>
+
+                <!-- Texto Sobre -->
+                <div class="space-y-6 animate-on-scroll">
+                    <h2 class="text-4xl font-bold"
+                        style="font-family: var(--font-heading); color: var(--primary-dark);">
+                        A Arte da <span class="text-[var(--accent-1)]">Gravataria</span> Moderna
+                    </h2>
+
+                    <div class="space-y-4 text-gray-600">
+                        <p class="text-lg leading-relaxed">
+                            Na <strong class="text-[var(--accent-1)]">SR Gravataria</strong>, transformamos acessórios
+                            masculinos em peças de arte desde 2010. O que começou como uma pequena oficina familiar
+                            tornou-se referência em elegância sofisticada.
+                        </p>
+
+                        <div class="pl-4 border-l-4 border-[var(--accent-2)]">
+                            <p class="text-gray-600 italic">
+                                "Nosso segredo? A combinação perfeita entre tradição artesanal e design contemporâneo.
+                                Cada peça conta uma história de dedicação e bom gosto."
+                            </p>
+                        </div>
+
+                        <ul class="grid grid-cols-2 gap-4 mt-6">
+                            <li class="flex items-center space-x-2">
+                                <div
+                                    class="w-8 h-8 bg-[var(--accent-1)]/10 rounded-full flex items-center justify-center">
+                                    <svg class="w-4 h-4 text-[var(--accent-1)]" fill="none" stroke="currentColor"
+                                        viewBox="0 0 24 24">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                            d="M5 13l4 4L19 7" />
+                                    </svg>
+                                </div>
+                                <span class="text-sm">Artigos exclusivos</span>
+                            </li>
+                            <li class="flex items-center space-x-2">
+                                <div
+                                    class="w-8 h-8 bg-[var(--accent-2)]/10 rounded-full flex items-center justify-center">
+                                    <svg class="w-4 h-4 text-[var(--accent-2)]" fill="none" stroke="currentColor"
+                                        viewBox="0 0 24 24">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                            d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z" />
+                                    </svg>
+                                </div>
+                                <span class="text-sm">Qualidade certificada</span>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <button
+                        class="mt-6 bg-gradient-to-r from-[var(--accent-1)] to-[var(--accent-2)] text-white px-8 py-3 rounded-full hover:shadow-lg transition-all flex items-center">
+                        <svg class="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M17 8h2a2 2 0 012 2v6a2 2 0 01-2 2h-2v4l-4-4H9a1.994 1.994 0 01-1.414-.586m0 0L11 14h4a2 2 0 002-2V6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2v4l.586-.586z" />
+                        </svg>
+                        Conheça Nossa História
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Section Qualidade -->
+    <section class="py-24 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-4xl font-bold text-center mb-16"
+                style="font-family: var(--font-heading); color: var(--primary-dark);">
+                Qualidade Incomparável
+            </h2>
+
+            <div class="grid md:grid-cols-3 gap-8">
+                <!-- Card 1 -->
+                <div class="flip-card aspect-square">
+                    <div class="flip-card-inner">
+                        <div
+                            class="flip-card-front bg-gradient-to-br from-[var(--primary-light)] to-white flex flex-col items-center justify-center p-8 rounded-3xl shadow-xl border-2 border-gray-100">
+                            <h3
+                                class="text-3xl font-bold text-center mb-4 bg-clip-text text-transparent bg-gradient-to-r from-[var(--accent-1)] to-[var(--accent-2)]">
+                                Materiais Nobres
+                            </h3>
+                            <svg class="w-20 h-20 text-[var(--accent-1)]" fill="none" stroke="currentColor"
+                                viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
+                                    d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+                            </svg>
+                        </div>
+
+                        <div
+                            class="flip-card-back bg-[var(--primary-dark)] text-white p-8 rounded-3xl shadow-xl flex flex-col justify-center">
+                            <ul class="space-y-4 text-center">
+                                <li class="flex items-center justify-center gap-2">
+                                    <div class="w-2 h-2 bg-[var(--accent-2)] rounded-full"></div>
+                                    Sedas Italianas
+                                </li>
+                                <li class="flex items-center justify-center gap-2">
+                                    <div class="w-2 h-2 bg-[var(--accent-2)] rounded-full"></div>
+                                    Couro Legítimo
+                                </li>
+                                <li class="flex items-center justify-center gap-2">
+                                    <div class="w-2 h-2 bg-[var(--accent-2)] rounded-full"></div>
+                                    Fios Egyptian Cotton
+                                </li>
+                            </ul>
+                            <div class="mt-6 text-center text-sm text-[var(--accent-2)]">
+                                Garantia de 5 anos
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 2 -->
+                <div class="flip-card aspect-square">
+                    <div class="flip-card-inner">
+                        <div
+                            class="flip-card-front bg-gradient-to-br from-[var(--primary-light)] to-white flex flex-col items-center justify-center p-8 rounded-3xl shadow-xl border-2 border-gray-100">
+                            <h3
+                                class="text-3xl font-bold text-center mb-4 bg-clip-text text-transparent bg-gradient-to-r from-[var(--accent-1)] to-[var(--accent-2)]">
+                                Costura Premium
+                            </h3>
+                            <svg class="w-20 h-20 text-[var(--accent-1)]" fill="none" stroke="currentColor"
+                                viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
+                                    d="M13 10V3L4 14h7v7l9-11h-7z" />
+                            </svg>
+                        </div>
+
+                        <div
+                            class="flip-card-back bg-[var(--primary-dark)] text-white p-8 rounded-3xl shadow-xl flex flex-col justify-center">
+                            <div class="text-center space-y-4">
+                                <div class="text-4xl font-bold text-[var(--accent-2)]">18h</div>
+                                <p>Tempo médio de produção por peça</p>
+                                <div class="h-1 bg-[var(--accent-2)] w-1/3 mx-auto"></div>
+                                <p class="text-sm">Controle de qualidade em 3 etapas</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 3 -->
+                <div class="flip-card aspect-square">
+                    <div class="flip-card-inner">
+                        <div
+                            class="flip-card-front bg-gradient-to-br from-[var(--primary-light)] to-white flex flex-col items-center justify-center p-8 rounded-3xl shadow-xl border-2 border-gray-100">
+                            <h3
+                                class="text-3xl font-bold text-center mb-4 bg-clip-text text-transparent bg-gradient-to-r from-[var(--accent-1)] to-[var(--accent-2)]">
+                                Exclusividade
+                            </h3>
+                            <svg class="w-20 h-20 text-[var(--accent-1)]" fill="none" stroke="currentColor"
+                                viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
+                                    d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" />
+                            </svg>
+                        </div>
+
+                        <div
+                            class="flip-card-back bg-[var(--primary-dark)] text-white p-8 rounded-3xl shadow-xl flex flex-col justify-center">
+                            <div class="text-center space-y-4">
+                                <div class="text-[var(--accent-2)] text-3xl font-bold">+200</div>
+                                <p>Modelos exclusivos</p>
+                                <div class="flex justify-center gap-2">
+                                    <div class="w-8 h-1 bg-[var(--accent-2)]"></div>
+                                    <div class="w-4 h-1 bg-[var(--accent-2)] opacity-50"></div>
+                                </div>
+                                <p class="text-sm">Edições limitadas mensais</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Seção Oferta Responsiva -->
+    <section class="py-12 md:py-24 bg-gradient-to-r from-[var(--primary-dark)] to-[var(--accent-1)] overflow-hidden">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid lg:grid-cols-2 gap-8 md:gap-12 items-center">
+                <!-- Conteúdo -->
+                <div class="text-white text-center lg:text-left mb-8 lg:mb-0">
+                    <span
+                        class="bg-white/20 px-4 py-1 md:px-6 md:py-2 rounded-full text-xs md:text-sm font-semibold">Oferta
+                        Exclusiva</span>
+                    <h2 class="text-3xl md:text-4xl lg:text-5xl font-bold mt-6 md:mt-8 mb-4 md:mb-6"
+                        style="font-family: var(--font-heading);">
+                        Eleve Seu Estilo por Menos
+                    </h2>
+                    <p class="text-base md:text-xl mb-6 md:mb-8 opacity-90">Coleção Premium de Gravatas com <br
+                            class="hidden md:block"><strong>50% OFF</strong> - Apenas nesta Semana!</p>
+
+                    <!-- Lista de Vantagens -->
+                    <ul class="grid gap-3 md:gap-4 mb-8 md:mb-12">
+                        <li class="flex items-center justify-center lg:justify-start gap-2 md:gap-3">
+                            <i class="fas fa-check-circle text-[var(--accent-2)] text-sm md:text-base"></i>
+                            <span class="text-sm md:text-base">Sedas 100% Italianas</span>
+                        </li>
+                        <!-- Repetir para outros itens -->
+                    </ul>
+
+                    <!-- Contador -->
+                    <div class="bg-white/10 p-4 md:p-6 rounded-xl md:rounded-2xl mb-8 md:mb-12">
+                        <p class="text-sm md:text-base mb-3 md:mb-4">Oferta termina em:</p>
+                        <div
+                            class="flex flex-wrap justify-center lg:justify-start gap-2 md:gap-4 text-xl md:text-2xl lg:text-3xl font-bold">
+                            <div class="countdown-box">
+                                <span class="label">Dias</span>
+                                <span class="value">00</span>
+                            </div>
+                            <div class="countdown-box">
+                                <span class="label">Horas</span>
+                                <span class="value">00</span>
+                            </div>
+                            <div class="countdown-box">
+                                <span class="label">Minutos</span>
+                                <span class="value">00</span>
+                            </div>
+                            <div class="countdown-box">
+                                <span class="label">Segundos</span>
+                                <span class="value">00</span>
+                            </div>
+                            <!-- Adicionar outros boxes -->
+                        </div>
+                    </div>
+
+                    <!-- CTA -->
+                    <button
+                        class="relative shine-effect bg-gradient-to-r from-[var(--accent-1)] to-[var(--accent-2)] text-white px-12 py-4 rounded-full text-lg font-semibold hover:scale-105 transition-transform shadow-xl"
+                        onclick="mandaMensagem()">
+                        Fale com atendente
+                    </button>
+                </div>
+
+                <!-- Imagem -->
+                <div class="relative group order-first lg:order-last mx-auto max-w-[500px] lg:max-w-none">
+                    <img src="./src/Img/IMG-gravata-5.jpg" alt="Coleção de Gravatas"
+                        class="rounded-2xl md:rounded-3xl shadow-xl md:shadow-2xl transform group-hover:rotate-1 transition-all w-full h-auto">
+                    <div
+                        class="absolute -bottom-4 md:-bottom-6 left-1/2 -translate-x-1/2 bg-white px-4 py-2 md:px-6 md:py-3 rounded-full shadow-md">
+                        <span class="text-[var(--primary-dark)] font-bold text-sm md:text-base">⭐ 4.9/5</span>
+                        <span class="text-xs md:text-sm ml-1 md:ml-2">(O melhor pra você)</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Seção Galeria -->
+    <section class="py-16 px-4">
+        <div class="max-w-7xl mx-auto">
+            <h2 class="text-4xl font-bold text-center mb-12"
+                style="font-family: var(--font-heading); color: var(--primary-dark);">
+                Nossos Produtos
+            </h2>
+
+            <div id="gallery-grid" class="grid grid-cols-2 md:grid-cols-3 gap-4"></div>
+        </div>
+    </section>
+
+    <!-- Modal -->
+    <div id="gallery-modal" class="hidden fixed inset-0 z-50 bg-black bg-opacity-90 backdrop-blur-sm p-4">
+        <div class="relative max-w-4xl mx-auto h-full flex items-center justify-center">
+            <button onclick="closeModal()" class="absolute top-4 right-4 text-white text-3xl">&times;</button>
+
+            <div class="bg-white rounded-lg overflow-hidden shadow-2xl">
+                <img id="modal-image" class="max-h-[80vh] w-full object-cover" src="" alt="Produto">
+
+                <div class="p-4 bg-[var(--primary-dark)] text-center">
+                    <button
+                        class="inline-flex items-center bg-green-500 text-white px-6 py-2 rounded-full hover:bg-green-600 transition-colors"
+                        target="_blank" onclick="mandaMensagem()">
+                        <svg class="w-5 h-5 mr-2" fill="currentColor" viewBox="0 0 24 24">
+                            <path
+                                d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z" />
+                        </svg>
+                        Comprar pelo WhatsApp
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- Seção Depoimentos -->
+    <section class="py-24 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-4xl font-bold text-center mb-12"
+                style="font-family: var(--font-heading); color: var(--primary-dark);">
+                O que nossos clientes dizem
+            </h2>
+
+            <!-- Slider main container -->
+            <div class="swiper testimonials-swiper">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="h-full flex flex-col">
+                            <div class="bg-white p-8 rounded-2xl shadow-lg mx-4 h-full flex flex-col">
+                                <div class="flex gap-2 text-[var(--accent-2)] mb-4">
+                                    ★★★★★
+                                </div>
+                                <p class="text-gray-600 flex-1 mb-6">"A qualidade e o acabamento são impecáveis. Um
+                                    produto que realmente vale a pena!"</p>
+                                <div class="flex items-center gap-4">
+                                    <div
+                                        class="w-12 h-12 bg-[var(--primary-dark)] rounded-full flex items-center justify-center text-white font-bold">
+                                        M
+                                    </div>
+                                    <div>
+                                        <h4 class="font-bold">Mateus Lima</h4>
+                                        <p class="text-sm text-gray-500">Empresário</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="h-full flex flex-col">
+                            <div class="bg-white p-8 rounded-2xl shadow-lg mx-4 h-full flex flex-col">
+                                <div class="flex gap-2 text-[var(--accent-2)] mb-4">
+                                    ★★★★★
+                                </div>
+                                <p class="text-gray-600 flex-1 mb-6">"Produto de altíssima qualidade. A durabilidade e o
+                                    design são excelentes!"</p>
+                                <div class="flex items-center gap-4">
+                                    <div
+                                        class="w-12 h-12 bg-[var(--primary-dark)] rounded-full flex items-center justify-center text-white font-bold">
+                                        R
+                                    </div>
+                                    <div>
+                                        <h4 class="font-bold">Ricardo Souza</h4>
+                                        <p class="text-sm text-gray-500">Engenheiro</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="h-full flex flex-col">
+                            <div class="bg-white p-8 rounded-2xl shadow-lg mx-4 h-full flex flex-col">
+                                <div class="flex gap-2 text-[var(--accent-2)] mb-4">
+                                    ★★★★
+                                </div>
+                                <p class="text-gray-600 flex-1 mb-6">"Elegância e conforto em um só produto. Super
+                                    recomendo!"</p>
+                                <div class="flex items-center gap-4">
+                                    <div
+                                        class="w-12 h-12 bg-[var(--primary-dark)] rounded-full flex items-center justify-center text-white font-bold">
+                                        L
+                                    </div>
+                                    <div>
+                                        <h4 class="font-bold">Lucas Ferreira</h4>
+                                        <p class="text-sm text-gray-500">Advogado</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="h-full flex flex-col">
+                            <div class="bg-white p-8 rounded-2xl shadow-lg mx-4 h-full flex flex-col">
+                                <div class="flex gap-2 text-[var(--accent-2)] mb-4">
+                                    ★★★★★
+                                </div>
+                                <p class="text-gray-600 flex-1 mb-6">"Design sofisticado e materiais de alta qualidade.
+                                    Ótima compra!"</p>
+                                <div class="flex items-center gap-4">
+                                    <div
+                                        class="w-12 h-12 bg-[var(--primary-dark)] rounded-full flex items-center justify-center text-white font-bold">
+                                        F
+                                    </div>
+                                    <div>
+                                        <h4 class="font-bold">Felipe Mendes</h4>
+                                        <p class="text-sm text-gray-500">Arquiteto</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="h-full flex flex-col">
+                            <div class="bg-white p-8 rounded-2xl shadow-lg mx-4 h-full flex flex-col">
+                                <div class="flex gap-2 text-[var(--accent-2)] mb-4">
+                                    ★★★★★
+                                </div>
+                                <p class="text-gray-600 flex-1 mb-6">"Um toque de sofisticação e modernidade. Produto
+                                    excelente!"</p>
+                                <div class="flex items-center gap-4">
+                                    <div
+                                        class="w-12 h-12 bg-[var(--primary-dark)] rounded-full flex items-center justify-center text-white font-bold">
+                                        D
+                                    </div>
+                                    <div>
+                                        <h4 class="font-bold">Daniel Castro</h4>
+                                        <p class="text-sm text-gray-500">Designer</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="h-full flex flex-col">
+                            <div class="bg-white p-8 rounded-2xl shadow-lg mx-4 h-full flex flex-col">
+                                <div class="flex gap-2 text-[var(--accent-2)] mb-4">
+                                    ★★★★
+                                </div>
+                                <p class="text-gray-600 flex-1 mb-6">"Perfeito para quem valoriza qualidade e estilo.
+                                    Comprei e amei!"</p>
+                                <div class="flex items-center gap-4">
+                                    <div
+                                        class="w-12 h-12 bg-[var(--primary-dark)] rounded-full flex items-center justify-center text-white font-bold">
+                                        J
+                                    </div>
+                                    <div>
+                                        <h4 class="font-bold">João Martins</h4>
+                                        <p class="text-sm text-gray-500">Médico</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- Pagination -->
+                <div class="swiper-pagination mt-8"></div>
+
+                <!-- Navigation buttons -->
+                <div class="swiper-button-prev text-[var(--primary-dark)]"></div>
+                <div class="swiper-button-next text-[var(--primary-dark)]"></div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- Seção Contato -->
+    <section class="py-24 bg-gradient-to-b from-[var(--primary-light)] to-white" id="contato">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid md:grid-cols-2 gap-12 lg:gap-24 items-center">
+                <!-- Informações -->
+                <div class="space-y-12 text-center md:text-left">
+                    <h2 class="text-4xl font-bold"
+                        style="font-family: var(--font-heading); color: var(--primary-dark);">
+                        Venha nos Visitar
+                    </h2>
+
+                    <div class="grid grid-cols-1 gap-8">
+                        <!-- Endereço -->
+                        <div class="p-6 bg-white rounded-2xl shadow-lg hover:shadow-xl transition-shadow">
+                            <div
+                                class="w-16 h-16 bg-[var(--accent-1)]/10 rounded-full flex items-center justify-center mx-auto md:mx-0 mb-4">
+                                <i class="fas fa-map-marker-alt text-2xl text-[var(--accent-1)]"></i>
+                            </div>
+                            <h3 class="text-xl font-bold mb-2">Nosso Endereço</h3>
+                            <p class="text-gray-600">
+                                Av. das Gravata, 1234<br>
+                                Centro - São Paulo/SP<br>
+                                CEP: 01234-567
+                            </p>
+                        </div>
+
+                        <!-- Contatos -->
+                        <div class="p-6 bg-white rounded-2xl shadow-lg hover:shadow-xl transition-shadow">
+                            <div
+                                class="w-16 h-16 bg-[var(--accent-1)]/10 rounded-full flex items-center justify-center mx-auto md:mx-0 mb-4">
+                                <i class="fas fa-phone-alt text-2xl text-[var(--accent-1)]"></i>
+                            </div>
+                            <h3 class="text-xl font-bold mb-2">Fale Conosco</h3>
+                            <div class="space-y-2">
+                                <p class="text-gray-600">
+                                    <a href="tel:+5511999999999" class="hover:text-[var(--accent-1)] transition-colors">
+                                        (11) 9999-9999
+                                    </a>
+                                </p>
+                                <p class="text-gray-600">
+                                    <a href="mailto:contato@sgravataria.com"
+                                        class="hover:text-[var(--accent-1)] transition-colors">
+                                        contato@sgravataria.com
+                                    </a>
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Redes Sociais -->
+                        <div class="p-6 bg-white rounded-2xl shadow-lg hover:shadow-xl transition-shadow">
+                            <div
+                                class="w-16 h-16 bg-[var(--accent-1)]/10 rounded-full flex items-center justify-center mx-auto md:mx-0 mb-4">
+                                <i class="fas fa-hashtag text-2xl text-[var(--accent-1)]"></i>
+                            </div>
+                            <h3 class="text-xl font-bold mb-4">Redes Sociais</h3>
+                            <div class="flex justify-center md:justify-start gap-4">
+                                <a href="#"
+                                    class="w-12 h-12 rounded-full bg-[var(--primary-dark)] text-white flex items-center justify-center hover:bg-[var(--accent-1)] transition-colors">
+                                    <i class="fab fa-instagram"></i>
+                                </a>
+                                <a href="#"
+                                    class="w-12 h-12 rounded-full bg-[var(--primary-dark)] text-white flex items-center justify-center hover:bg-[var(--accent-1)] transition-colors">
+                                    <i class="fab fa-whatsapp"></i>
+                                </a>
+                                <a href="#"
+                                    class="w-12 h-12 rounded-full bg-[var(--primary-dark)] text-white flex items-center justify-center hover:bg-[var(--accent-1)] transition-colors">
+                                    <i class="fab fa-facebook-f"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Mapa -->
+                <div class="rounded-2xl overflow-hidden shadow-xl h-[600px]">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.0754267452926!2d-46.65342658440778!3d-23.565734367638633!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce59c8da0aa315%3A0xd59f9431f2c9776a!2sAv.%20Paulista%2C%20S%C3%A3o%20Paulo%20-%20SP!5e0!3m2!1spt-BR!2sbr!4v1689298006674!5m2!1spt-BR!2sbr"
+                        width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-[var(--primary-dark)] text-[var(--primary-light)] pt-16">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-12 pb-12 border-b border-white/20">
+                <!-- Sobre -->
+                <div class="space-y-4">
+                    <h3 class="text-2xl font-bold" style="font-family: var(--font-heading);">SR Gravataria</h3>
+                    <p class="text-sm text-gray-300">
+                        Especialistas em elegância masculina desde 2010. Transformando acessórios em arte através do bom
+                        gosto e qualidade excepcional.
+                    </p>
+                </div>
+
+                <!-- Links Rápidos -->
+                <div class="space-y-4">
+                    <h4 class="text-lg font-semibold">Navegação</h4>
+                    <ul class="space-y-2 text-sm">
+                        <li><a href="#" class="hover:text-[var(--accent-1)] transition-colors">Coleções</a></li>
+                        <li><a href="#" class="hover:text-[var(--accent-1)] transition-colors">Novidades</a></li>
+                        <li><a href="#" class="hover:text-[var(--accent-1)] transition-colors">Sobre Nós</a></li>
+                        <li><a href="#" class="hover:text-[var(--accent-1)] transition-colors">Contato</a></li>
+                    </ul>
+                </div>
+
+                <!-- Contato -->
+                <div class="space-y-4">
+                    <h4 class="text-lg font-semibold">Contato</h4>
+                    <div class="space-y-2 text-sm">
+                        <div class="flex items-center gap-2">
+                            <i class="fas fa-map-marker-alt text-[var(--accent-2)]"></i>
+                            <span>Av. Elegância, 123 - Centro</span>
+                        </div>
+                        <div class="flex items-center gap-2">
+                            <i class="fas fa-phone text-[var(--accent-2)]"></i>
+                            <span>(11) 9999-9999</span>
+                        </div>
+                        <div class="flex items-center gap-2">
+                            <i class="fas fa-envelope text-[var(--accent-2)]"></i>
+                            <span>contato@sgravataria.com</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Redes Sociais -->
+                <div class="space-y-4">
+                    <h4 class="text-lg font-semibold">Conecte-se</h4>
+                    <div class="flex space-x-4">
+                        <a href="#"
+                            class="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center hover:bg-[var(--accent-1)] transition-colors">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="#"
+                            class="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center hover:bg-[var(--accent-1)] transition-colors">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="#"
+                            class="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center hover:bg-[var(--accent-1)] transition-colors">
+                            <i class="fab fa-whatsapp"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Copyright -->
+            <div class="py-8 text-center">
+                <p class="text-sm text-gray-400">
+                    © 2023 SR Gravataria. Todos os direitos reservados.<br>
+                    <span
+                        class="font-bold bg-clip-text text-transparent bg-gradient-to-r from-[var(--accent-1)] to-[var(--accent-2)]">
+                        Elegância em cada detalhe
+                    </span>
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Adicione isso no head para os ícones do Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+
+
+    <!-- Scripts -->
+     <script src="./src/JS/Scroll.js"></script>
+    <script>
+        const mobileMenuButton = document.getElementById('mobile-menu-button');
+        const mobileMenu = document.getElementById('mobile-menu');
+
+        // Toggle Menu
+        mobileMenuButton.addEventListener('click', (e) => {
+            e.stopPropagation();
+            mobileMenu.classList.toggle('active');
+            mobileMenuButton.querySelector('svg').classList.toggle('rotate-90');
+        });
+
+        // Close Menu
+        function closeMenu() {
+            mobileMenu.classList.remove('active');
+            mobileMenuButton.querySelector('svg').classList.remove('rotate-90');
+        }
+
+        document.addEventListener('click', (e) => {
+            if (!e.target.closest('nav')) closeMenu();
+        });
+
+        window.addEventListener('resize', () => {
+            if (window.innerWidth >= 1024) closeMenu();
+        });
+
+
+        document.addEventListener('DOMContentLoaded', () => {
+            // Mobile toggle
+            const cards = document.querySelectorAll('.flip-card');
+
+            cards.forEach(card => {
+                card.addEventListener('click', function () {
+                    if (window.innerWidth <= 768) {
+                        this.classList.toggle('active');
+                    }
+                });
+
+                // Reset hover on mobile
+                card.addEventListener('mouseleave', () => {
+                    if (window.innerWidth > 768) {
+                        this.classList.remove('active');
+                    }
+                });
+            });
+
+            // Close other cards
+            window.addEventListener('click', (e) => {
+                if (!e.target.closest('.flip-card') && window.innerWidth <= 768) {
+                    cards.forEach(card => card.classList.remove('active'));
+                }
+            });
+        });
+
+
+        // Array apenas com links das imagens
+        const galleryImages = [
+            './src/Img/IMG-gravata-1.jpg',
+            './src/Img/IMG-gravata-2.jpg',
+            './src/Img/IMG-gravata-3.jpg',
+            './src/Img/IMG-gravata-4.jpg',
+            './src/Img/IMG-gravata-5.jpg',
+            './src/Img/IMG-gravata-6.jpg',
+            './src/Img/IMG-gravata-7.jpg',
+            './src/Img/IMG-gravata-8.jpg',
+            './src/Img/IMG-camisa-1.jpg',
+            './src/Img/IMG-camisa-2.jpg',
+            './src/Img/IMG-camisa-3.jpg',
+            './src/Img/IMG-cinto-1.jpg',
+            './src/Img/IMG-cinto-2.jpg',
+            './src/Img/IMG-cinto-3.jpg',
+        ];
+
+        // Gerar grade de imagens
+        const galleryGrid = document.getElementById('gallery-grid');
+        galleryImages.forEach((imageSrc, index) => {
+            galleryGrid.innerHTML += `
+        <div class="aspect-square cursor-pointer relative group overflow-hidden rounded-xl" onclick="openModal(${index})">
+            <img src="${imageSrc}" alt="Produto ${index + 1}" 
+                 class="w-full h-full object-cover  transform group-hover:scale-105 transition-transform">
+            <div class="absolute inset-0 bg-black/30 group-hover:bg-black/40 rounded-lg transition-colors"></div>
+        </div>
+    `;
+        });
+
+        // Funções do modal
+        function openModal(index) {
+            const modal = document.getElementById('gallery-modal');
+            const img = document.getElementById('modal-image');
+
+            img.src = galleryImages[index];
+            modal.classList.remove('hidden');
+        }
+
+        function closeModal() {
+            document.getElementById('gallery-modal').classList.add('hidden');
+        }
+
+        // Fechar modal ao clicar fora
+        window.onclick = function (event) {
+            const modal = document.getElementById('gallery-modal');
+            if (event.target === modal) {
+                closeModal();
+            }
+        }
+
+
+        //countdown
+        document.addEventListener('DOMContentLoaded', () => {
+            const countdownDate = new Date();
+            countdownDate.setDate(countdownDate.getDate() + 3); // 3 dias
+
+            function updateCountdown() {
+                const now = new Date().getTime();
+                const distance = countdownDate - now;
+
+                if (distance < 0) {
+                    document.querySelectorAll('.countdown-box').forEach(el => el.textContent = '00');
+                    return;
+                }
+
+                const days = Math.floor(distance / (1000 * 60 * 60 * 24));
+                const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+                const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+                const seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+                document.querySelectorAll('.countdown-box').forEach((el, index) => {
+                    let value;
+                    switch (index) {
+                        case 0: value = days; break;
+                        case 1: value = hours; break;
+                        case 2: value = minutes; break;
+                        case 3: value = seconds; break;
+                    }
+                    el.querySelector('.value').textContent = value.toString().padStart(2, '0');
+                });
+            }
+
+            setInterval(updateCountdown, 1000);
+            updateCountdown();
+        });
+
+    </script>
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script>
+        const swiper = new Swiper('.testimonials-swiper', {
+            // Configurações
+            loop: true,
+            slidesPerView: 1,
+            spaceBetween: 30,
+            centeredSlides: true,
+
+            // Breakpoints
+            breakpoints: {
+                768: {
+                    slidesPerView: 3,
+                    spaceBetween: 30,
+                    centeredSlides: false,
+                }
+            },
+
+            // Paginação
+            pagination: {
+                el: '.swiper-pagination',
+                clickable: true,
+            },
+
+            // Navegação
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+        });
+    </script>
+    <script>
+        function mandaMensagem() {
+            const numero = '55999999999';
+            const mensagem = 'Olá, gostaria de saber mais sobre o casamento!';
+            const link = `https://wa.me/${numero}?text=${encodeURIComponent(mensagem)}`;
+            window.open(link, '_blank');
+        }
+    </script>
+
+</body>
+
+</html>
